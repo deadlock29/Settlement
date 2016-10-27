@@ -1,0 +1,11 @@
+C:\Users\jhobart.poblete\Desktop\Personal Files\CSharp\2012 Projects\PostingQueueMonitoring_V2\PostingQueueMonitoring_V2\bin\Debug\PostingQueueMonitoring_V2.exe.config
+C:\Users\jhobart.poblete\Desktop\Personal Files\CSharp\2012 Projects\PostingQueueMonitoring_V2\PostingQueueMonitoring_V2\bin\Debug\PostingQueueMonitoring_V2.exe
+C:\Users\jhobart.poblete\Desktop\Personal Files\CSharp\2012 Projects\PostingQueueMonitoring_V2\PostingQueueMonitoring_V2\bin\Debug\PostingQueueMonitoring_V2.pdb
+C:\Users\jhobart.poblete\Desktop\Personal Files\CSharp\2012 Projects\PostingQueueMonitoring_V2\PostingQueueMonitoring_V2\obj\Debug\PostingQueueMonitoring_V2.Properties.Resources.resources
+C:\Users\jhobart.poblete\Desktop\Personal Files\CSharp\2012 Projects\PostingQueueMonitoring_V2\PostingQueueMonitoring_V2\obj\Debug\PostingQueueMonitoring_V2.csproj.GenerateResource.Cache
+C:\Users\jhobart.poblete\Desktop\Personal Files\CSharp\2012 Projects\PostingQueueMonitoring_V2\PostingQueueMonitoring_V2\obj\Debug\PostingQueueMonitoring_V2.exe
+C:\Users\jhobart.poblete\Desktop\Personal Files\CSharp\2012 Projects\PostingQueueMonitoring_V2\PostingQueueMonitoring_V2\obj\Debug\PostingQueueMonitoring_V2.pdb
+C:\Users\jhobart.poblete\Desktop\Personal Files\CSharp\2012 Projects\PostingQueueMonitoring_V2\PostingQueueMonitoring_V2\obj\Debug\PostingQueueMonitoring_V2.MainForm.resources
+C:\Users\jhobart.poblete\Desktop\Personal Files\CSharp\2012 Projects\PostingQueueMonitoring_V2\PostingQueueMonitoring_V2\obj\Debug\PostingQueueMonitoring_V2.Helper.resources
+C:\Users\jhobart.poblete\Desktop\Personal Files\CSharp\2012 Projects\PostingQueueMonitoring_V2\PostingQueueMonitoring_V2\obj\Debug\PostingQueueMonitoring_V2.OpenICSMonitoring.resources
+C:\Users\jhobart.poblete\Desktop\Personal Files\CSharp\2012 Projects\PostingQueueMonitoring_V2\PostingQueueMonitoring_V2\obj\Debug\PostingQueueMonitoring_V2.csprojResolveAssemblyReference.cache
