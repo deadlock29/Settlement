@@ -26,25 +26,43 @@ namespace PostingQueueMonitoring_V2
                 return;
             }
 
-            string[] myText = new string[] {input_richTextBox1.Text};
-            foreach (string element in myText)
+            try
             {
-                output_richTextBox2.Text = element;
-                System.Console.WriteLine(output_richTextBox2.Text);
-                /*var textValues = input_richTextBox1.Text.Split('\n').Select(txt => $"'{txt}'");
-                var textValues = input_richTextBox1.Text.Split('\n').Select(myText => $"'{txt}'");
-                var concatValues = string.Join(",", textValues);
-                output_richTextBox2.Text = concatValues;
-                System.Console.WriteLine();*/
+                string sOutputList = "(";
+                string quoteStr = "'";
+                string formatString1 = ",";
+
+                string sSource = input_richTextBox1.Text.Trim();
+                string[] sSeparators = { "\n", ".", "/", " ", "\r", "\t" };
+                string[] words = sSource.Split(sSeparators, StringSplitOptions.RemoveEmptyEntries);
+
+                for (var i = 0; i < words.Length; i++)
+                {
+                    if (words[i].Trim().Length > 0)
+                    {
+                        var lineValue = words[i];
+                        sOutputList += quoteStr + lineValue + quoteStr + formatString1 + "\n";
+                    }
+                }
+                output_richTextBox2.Text = sOutputList.Substring(0, sOutputList.Length - 2);
+
+                if (output_richTextBox2.Text.Length > 0)
+                {
+                    output_richTextBox2.Text = output_richTextBox2.Text + ")";
+                }
             }
-            System.Console.WriteLine();
-            //output_richTextBox2.Rtf = input_richTextBox1.Rtf;
+
+            catch (Exception ex)
+            {
+                MessageBox.Show("" + ex);
+            }
         }
 
         private void Helper_Resize(object sender, EventArgs e)
         {
             this.MinimumSize = new Size(736, 466);
             this.MaximumSize = new Size(736, 466);
+            this.CenterToScreen();
         }
     }
 }
