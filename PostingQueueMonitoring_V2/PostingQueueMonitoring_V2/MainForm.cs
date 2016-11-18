@@ -168,7 +168,11 @@ namespace PostingQueueMonitoring_V2
             }
             catch(Exception)
             {
-                MessageBox.Show("SELECT A CUSTOMER / ENVIRONMENT.", ("NOTIFICATION!!!"));
+                string msg = "Select environment.";
+                string caption = "";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                MessageBoxIcon icon = MessageBoxIcon.Information;
+                MessageBox.Show(msg, caption, buttons, icon);
             }
         }
 
@@ -199,7 +203,11 @@ namespace PostingQueueMonitoring_V2
             }
             catch (Exception)
             {
-                MessageBox.Show("SELECT A CUSTOMER / ENVIRONMENT...", ("NOTIFICATION!!!"));
+                string msg = "Select environment.";
+                string caption = "";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                MessageBoxIcon icon = MessageBoxIcon.Information;
+                MessageBox.Show(msg, caption, buttons, icon);
             }
         }
 
@@ -224,7 +232,11 @@ namespace PostingQueueMonitoring_V2
             }
             catch (Exception)
             {
-                MessageBox.Show("SELECT A CUSTOMER / ENVIRONMENT...", ("NOTIFICATION!!!"));
+                string msg = "Select environment.";
+                string caption = "";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                MessageBoxIcon icon = MessageBoxIcon.Information;
+                MessageBox.Show(msg, caption, buttons, icon);
             }
         }
 

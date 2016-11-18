@@ -102,6 +102,7 @@
             this.ForeColor = System.Drawing.Color.MidnightBlue;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Helper";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SELECT_IN_HELPER";
             this.Resize += new System.EventHandler(this.Helper_Resize);
             this.groupBox1.ResumeLayout(false);

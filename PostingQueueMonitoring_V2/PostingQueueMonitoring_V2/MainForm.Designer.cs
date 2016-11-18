@@ -316,6 +316,7 @@
             this.ForeColor = System.Drawing.Color.MidnightBlue;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Posting Queue Monitoring";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

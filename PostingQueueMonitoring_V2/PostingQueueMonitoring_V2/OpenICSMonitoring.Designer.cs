@@ -67,6 +67,7 @@
             this.ForeColor = System.Drawing.Color.MidnightBlue;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "OpenICSMonitoring";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OpenICSMonitoring";
             ((System.ComponentModel.ISupportInitialize)(this.load_dataGridView1)).EndInit();
             this.ResumeLayout(false);
